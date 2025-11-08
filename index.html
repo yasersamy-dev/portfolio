@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yaser Samy | Backend Developer</title>
+
+  <!-- Meta for SEO -->
+  <meta name="description" content="Laravel Backend Developer | PHP, MySQL, APIs, and clean code.">
+  <meta name="keywords" content="Laravel, Backend Developer, PHP Developer, APIs, MySQL, Egypt, Yaser Samy">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #0f172a;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .sidebar {
+      background: #1e293b;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    .sidebar .info {
+      width: 100%;
+      text-align: left;
+      padding-left: 25px;
+    }
+
+    .sidebar .info a, .sidebar .info p {
+      display: block;
+      color: #e2e8f0;
+      font-size: 15px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      transition: color 0.2s;
+    }
+
+    .sidebar .info a:hover {
+      color: #38bdf8;
+    }
+
+    .sidebar .info i {
+      color: #38bdf8;
+      width: 25px;
+    }
+
+    .content {
+      margin-left: 300px;
+      padding: 60px 40px;
+    }
+
+    h1, h3 {
+      color: #38bdf8;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #334155;
+      color: #e2e8f0;
+      padding: 8px 15px;
+      border-radius: 25px;
+      margin: 6px;
+      font-size: 15px;
+      transition: background 0.3s;
+    }
+
+    .skills span:hover {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .project-card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 0px 15px rgba(56, 189, 248, 0.2);
+    }
+
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+      }
+
+      .content {
+        margin-left: 0;
+        padding: 30px 20px;
+      }
+
+      .sidebar img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar animate__animated animate__fadeInLeft">
+    <img src="yaser.jpg" alt="Yaser Samy">
+    <div class="info">
+      <a href="https://www.linkedin.com/in/yaser-samy-21717833b/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> linkedin.com/in/yaser-samy
+      </a>
+      <a href="https://github.com/YaserSamy" target="_blank">
+        <i class="fa-brands fa-github"></i> github.com/YaserSamy
+      </a>
+      <a href="mailto:yasersamy.dev@gmail.com">
+        <i class="fa-solid fa-envelope"></i> yasersamy.dev@gmail.com
+      </a>
+      <a href="tel:+201090378834">
+        <i class="fa-solid fa-phone"></i> +20 109 037 8834
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content animate__animated animate__fadeInRight">
+    <h1>Yaser Samy — Backend Developer</h1>
+    <p class="lead mb-5">
+      I’m a backend developer specialized in building scalable web applications and RESTful APIs using Laravel and PHP. 
+      I focus on writing clean, maintainable code and delivering reliable solutions for businesses and teams.
+    </p>
+
+    <!-- About Me -->
+    <h3>About Me</h3>
+    <p class="mb-5">
+      I’m a Laravel backend developer focused on writing clean, structured, and maintainable code. 
+      I love solving backend challenges and working with databases, authentication systems, and REST APIs.
+    </p>
+
+    <!-- Skills -->
+    <h3>Skills</h3>
+    <div class="skills mb-5">
+      <span>Laravel</span>
+      <span>PHP</span>
+      <span>MySQL</span>
+      <span>OOP</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Bootstrap</span>
+      <span>JavaScript</span>
+      <!-- <span>Vue.js</span> -->
+      <span>Git & GitHub</span>
+      <span>REST APIs</span>
+    </div>
+
+    <!-- Projects -->
+    <h3>Projects</h3>
+
+    <div class="project-card">
+  <h5>🛒 E-Commerce Platform</h5>
+  <p>A Laravel-based e-commerce system with product management, orders, and user authentication.</p>
+  <p><strong>Tech:</strong> Laravel, PHP, MySQL, Bootstrap</p>
+  <a href="https://github.com/YaserSamy-dev/EcommerceApp" class="text-info" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h5>📰 Blog CMS</h5>
+  <p>A Laravel project for managing posts, users, and categories efficiently.</p>
+  <p><strong>Tech:</strong> Laravel, PHP, MySQL, Bootstrap</p>
+  <a href="https://github.com/YaserSamy-dev/laravel-blog" class="text-info" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h5>💬 Chat App</h5>
+  <p>A real-time chat application built using PHP, MySQL, HTML, and CSS.</p>
+  <p><strong>Tech:</strong> PHP, MySQL, HTML, CSS</p>
+  <a href="https://github.com/YaserSamy-dev/chat-app" class="text-info" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h5>📊 Responsive Dashboard</h5>
+  <p>A responsive dashboard interface built using HTML and CSS for managing data visualization.</p>
+  <p><strong>Tech:</strong> HTML, CSS</p>
+  <a href="https://github.com/YaserSamy-dev/responsive-dashboard" class="text-info" target="_blank">View on GitHub</a>
+</div>
+
+
+    <div class="footer">
+      &copy; 2025 Yaser Samy. All Rights Reserved.
+    </div>
+  </div>
+</body>
+</html>
+
